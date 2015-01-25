@@ -10,3 +10,6 @@ Usage:
 
 Feel free to reuse my methods. I learned them from other kind people on the internet. 
   If you see something in my code that bothers you, please let me know so that I can fix it.
+
+Designer Screenshot:
+http://i.imgur.com/G3W9QZf.png

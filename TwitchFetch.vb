@@ -77,6 +77,12 @@ Public Class TwitchFetch
             rtfout.Text = outputlow
         Else
             rtfout.Text = "Please select a quality option."
+            rtfout.Text = "http://usher.twitch.tv/api/channel/hls/" & channelname & ".m3u8?player=twitchweb&token=" & token & "&sig=" & sig & "&$allow_audio_only=true&allow_source=true&type=any&p=" & randomnum
+        End If
+
+        'Opens chat in browser if checked.
+        If checkchat.Checked = True Then
+            Process.Start("http://www.twitch.tv/" & channelname & "/chat")
         End If
     End Sub
 End Class

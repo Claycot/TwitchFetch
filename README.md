@@ -1,5 +1,6 @@
 # TwitchFetch
 This VisualBasic program fetches livestream links from Twitch.tv, for usage in a media player such as MPC.
+
 Demo: https://www.youtube.com/watch?v=uaauUjKHiMg
 
 Usage:

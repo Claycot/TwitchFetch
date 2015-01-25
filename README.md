@@ -9,7 +9,7 @@ Usage:
 1. Type the name of the Twitch.tv channel into the first text box. 
    Be sure to use the name given in the url bar (eg. Riot Games is riotgames).
 
-2. Select a quality option.
+2. Select a quality option. If you want to open chat, check the box.
 
 3. Press the button.
 

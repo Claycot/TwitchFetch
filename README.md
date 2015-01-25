@@ -7,8 +7,7 @@ Demo: https://www.youtube.com/watch?v=uaauUjKHiMg
 Usage:
 
 1. Type the name of the Twitch.tv channel into the first text box. 
-2. 
-  Be sure to use the name given in the url bar (eg. Riot Games is riotgames).
+   Be sure to use the name given in the url bar (eg. Riot Games is riotgames).
 
 2. Select a quality option.
 

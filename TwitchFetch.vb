@@ -18,14 +18,14 @@ Public Class TwitchFetch
 
     'Function to retrieve text from input url.
     Public Function LoadSiteContent(ByVal url As String) As String
-        'create a new WebClient object
+        'Create a new WebClient object
         Dim client As New System.Net.WebClient()
-        'create a byte array for holding the returned data
+        'Create a byte array for holding the returned data
         Dim html As Byte() = client.DownloadData(url)
-        'use the UTF8Encoding object to convert the byte
-        'array into a string
+        'Use the UTF8Encoding object to convert the byte
+        'Array into a string
         Dim utf As New System.Text.UTF8Encoding()
-        'return the converted string
+        'Return the converted string
         Return utf.GetString(html)
     End Function
 
@@ -77,7 +77,6 @@ Public Class TwitchFetch
             rtfout.Text = outputlow
         Else
             rtfout.Text = "Please select a quality option."
-            rtfout.Text = "http://usher.twitch.tv/api/channel/hls/" & channelname & ".m3u8?player=twitchweb&token=" & token & "&sig=" & sig & "&$allow_audio_only=true&allow_source=true&type=any&p=" & randomnum
         End If
 
         'Opens chat in browser if checked.

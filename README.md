@@ -3,6 +3,7 @@ This VisualBasic program fetches livestream links from Twitch.tv, for usage in a
 If selected, the program also opens the channel's chat in a browser window.
 
 Demo shows older version. Version 1.2 now handles the 404 and outputs a message within the program!
+
 Demo: https://www.youtube.com/watch?v=uaauUjKHiMg
 
 Usage:

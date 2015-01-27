@@ -33,6 +33,10 @@ Public Class TwitchFetch
         m3uraw = "Empty"
         rawinput = txtinput.Text
         channelname = rawinput.Trim.ToLower
+        outputhigh = "Quality not available. Try selecting source quality."
+        outputmedium = "Quality not available. Try selecting source quality."
+        outputlow = "Quality not available. Try selecting source quality."
+        outputmobile = "Quality not available. Try selecting source quality."
         randomnum = CInt(Math.Floor((999999 - 1 + 1) * Rnd())) + 1
         tokenraw = LoadSiteContent("http://api.twitch.tv/api/channels/" & channelname & "/access_token")
 

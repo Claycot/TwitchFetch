@@ -1,4 +1,7 @@
 # TwitchFetch
+
+UPDATE (10/3/16): It is with great sadness that I announce this program is no longer functioning. Twitch.tv. has migrated from its previous flash player to a satisfactory HTML5 player. The intention of this program was to avoid the poorly optimized flash player, which is no longer an issue. I may remake this program in the future. Until then, thanks for being part of TwitchFetch!
+
 This VisualBasic program fetches livestream links from Twitch.tv, for usage in a media player such as MPC.
 If selected, the program also opens the channel's chat in a browser window.
 
